@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login test",
+    "line": 1,
+    "id": "login-test",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-test;test-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "test login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters username and password",
+            "result": {
+              "status": "passed",
+              "duration": 1012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicks on login butoon",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is navigated to the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
